@@ -22,7 +22,7 @@ The project involves downloading stock price data for these companies, visualizi
 The project is organized into the following sections:
 
 1. **Data Collection**: Downloading stock price data for the selected companies using the `yfinance` library.
-2. **Data Visualization**: Creating line charts to visualize the stock trends for each company throughout 2021.
+2. **Data Visualization**: Creating line charts to visualize the stock trends for each company throughout 2021. Correlation matrices to display correlations between companies in terms of returns and volatility.
 3. **Clustering Analysis**: Using K-Means clustering to identify patterns in the stock data.
 
 ## Requirements
@@ -50,6 +50,7 @@ The stock price data for the selected companies is downloaded using the yfinance
 ## Data Visualisation
 
 Line charts are created to visualize the closing stock prices of each company over the course of 2021. The charts are saved as PNG files for each company.
+Correlation matrices are created to display correlations between companies in terms of returns and volatility. Saved in 'Advanced_Correlations.png' file.
 
 ## Clustering Analysis
 
@@ -72,6 +73,7 @@ To run the code, follow these steps:
 The results of the analysis include:
 
 - Line Charts: Visual representations of the stock trends for each company in 2021.
+- Correlation matrices: Correlations between companies in terms of returns and volatility.
 - Clustering Results: Insights into the patterns and clusters identified in the stock data.
 
 ## Conclusion
